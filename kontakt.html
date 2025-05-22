@@ -9,19 +9,23 @@
   <script src="script.js"></script>
   <form>
     <p>Forma za rezervaciju</p>
-    <label for="ime"> Unesite ime i prezime</label>
-    <input type="ime" id="Unesite ime i prezime" >
+    <label for="text"> Unesite ime i prezime</label>
+    <input type="text" id="Ime" >
     <br>
     <label for="email">Email adresa</label>
-    <input type="email" id="Email adresa">
+    <input type="email" id="Email">
     <br>
-    <label for="broj osoba">Broj osoba</label>
-    <input type="broj osoba" id="Broj osoba">
+    <label for="number">Broj osoba</label>
+    <input type="number" id="Brojosoba">
     <br>
-    <label for="datum">Datum</label>
-    <input type="datum" id="Datum">
-  </form>
-  
+    <label for="date">Datum</label>
+    <input type="date" id="Datum">
+  </form> 
+    <form>
+      <input type="potvrdi rezervaciju" id="Rezervacija">
+      <button onclick="potvrdiRezervaciju()">Potvrdi rezervaciju</button>
+    </form>
+    
 
 </body>
 </html>
